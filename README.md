@@ -57,7 +57,8 @@ The working source workbook used during the project was named `findex_microdata_
 ## Tools and technologies
 
 - **Excel / Power Query:** workbook inspection, data profiling, quality checks and preparation.
-- **Python:** exploratory inspection and selected checks during the analysis.
+- **SQL (PostgreSQL):** querying and examining the prepared Nigeria dataset, practising analytical filtering, grouping and aggregation, and checking patterns in the data.
+- **Python:** exploratory data inspection and selected checks during the analysis.
 - **Power BI:** comparative visuals and the final interactive report.
 - **DAX / Power BI measures:** calculations used in the report, where applicable.
 - **GitHub:** project documentation and versioned deliverables.
