@@ -2,6 +2,12 @@
 
 [![Portfolio project](https://img.shields.io/badge/Portfolio-Economy%20%7C%20E1-blue)](https://github.com/Ugodevops/development-research-data-portfolio)
 
+## Dashboard preview
+
+![Global Findex Nigeria Power BI dashboard](images/Screenshot%202026-11-16%20113528.png)
+
+*Power BI report overview: digital access and financial inclusion indicators across internet-use categories, age groups, gender and residential location.*
+
 ## Project overview
 
 This project uses the World Bank's Global Findex Database 2025 to explore how access to and use of digital technology relate to people's access to and use of financial services in Nigeria.
@@ -100,13 +106,13 @@ The complete figures, comparisons and reservations are in [Findings and interpre
 global-findex-nigeria/
 ├── README.md
 ├── Global_findex_Nigeria.pbix
+├── images/
+│   └── Screenshot 2026-11-16 113528.png
 └── docs/
     ├── methodology-and-workflow.md
     ├── findings-and-interpretation.md
     └── variable-guide.md
 ```
-
-The dashboard preview image will be added to the repository after a clean export from the final Power BI report is supplied and checked.
 
 ## Reproducing or extending the analysis
 
