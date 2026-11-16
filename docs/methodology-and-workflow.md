@@ -60,7 +60,7 @@ The workbook was inspected before analysis. The work included:
 
 This distinction matters. An empty value does not necessarily mean No. Similarly, Don't know and Refused are response categories, not ordinary missing values, and should not be silently recoded as No.
 
-The project used Power Query for workbook inspection and quality profiling, with Python used for selected exploratory checks.
+The project used Power Query for workbook inspection and quality profiling. Python was used for selected exploratory inspection and checks. SQL (PostgreSQL) was also part of the analytical workflow for querying and examining the prepared Nigeria dataset and practising structured analytical operations.
 
 ## 6. Data preparation
 
@@ -80,7 +80,13 @@ Examples of fields examined during the project included:
 
 This list is an analytical working guide, not a substitute for the official data dictionary. The full field names, labels, universes and response codes must be checked in the source documentation.
 
-## 7. Analysis and visualisation
+## 7. SQL, Python and analysis workflow
+
+After the data had been inspected and prepared, SQL (PostgreSQL) was used to query and examine the prepared Nigeria dataset. This supported structured analytical thinking through filtering records, grouping categories, calculating summaries and comparing results. Python supported selected exploratory inspection and checks.
+
+These tools served different purposes: SQL provided a structured way to ask questions of the prepared dataset, Python supported exploratory inspection, and Power BI was used to present the comparative visuals.
+
+## 8. Analysis and visualisation
 
 Power BI was used to compare the indicators across relevant groups. The report included comparisons such as:
 
@@ -94,7 +100,7 @@ The analysis was descriptive and comparative. Percentages were used to make diff
 
 A percentage must always be interpreted with its denominator, response category, weighting status and survey universe in mind. A difference between two percentages is a descriptive gap, not proof of a causal effect.
 
-## 8. Interpretation and reporting
+## 9. Interpretation and reporting
 
 The reporting process moved from values to observations and then to cautious interpretation:
 
@@ -105,7 +111,7 @@ The reporting process moved from values to observations and then to cautious int
 5. State what the visual does not show.
 6. Record recommendations as areas for consideration or further investigation, not as effects proven by the analysis.
 
-## 9. Limitations
+## 10. Limitations
 
 - The mobile phone ownership/internet use comparison is unweighted, unlike the weighted comparisons reported in other sections.
 - The No/DK/Refused category is retained as displayed and cannot be treated as a confirmed non-internet-use category.
@@ -116,7 +122,7 @@ The reporting process moved from values to observations and then to cautious int
 - The exact survey sample design, weights, indicator denominators and eligibility universes should be consulted in the official documentation before making population-level claims.
 - Descriptive comparisons do not establish causation.
 
-## 10. Reproducibility
+## 11. Reproducibility
 
 To reproduce or extend the work:
 
